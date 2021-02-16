@@ -33,7 +33,7 @@ body{
   font-family: "Andika", sans-serif;
   background-color: #DDDDDD;
   background-image: url("../images/pigeon-background.JPEG");
-
+  background-repeat: no-repeat;
   /*Req 1*/
 
 }
@@ -85,7 +85,8 @@ td{
 .rowhead{
   border-collapse: separate;
   border-spacing: 0px;
-  border: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 /*Req 6d*/
@@ -103,10 +104,11 @@ tr:hover{
 
 /*Req 7*/
 table{
-    border: 2px solid #000000;
-    border-collapse: collapse;
-    margin-right: auto;
-    margin-left: auto;
+  border: 2px solid #000000;
+  border-spacing: 0; 
+  border-radius: 10px; 
+  margin-right: auto;
+  margin-left: auto;
 }
 
 thead tr:first-child th:first-child{
